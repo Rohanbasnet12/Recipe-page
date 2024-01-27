@@ -1,0 +1,166 @@
+/* LINKS */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Young+Serif&display=swap');
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS VARIABLES */
+:root {
+    /* FONT SIZE */
+    --PARAH-FSIZE: 16px;
+
+    /* FONT FAMILY */
+    --PRIMARY-FONT: 'Outfit', sans-serif;
+    --SECONDARY-FONT: 'Young Serif', serif;
+
+
+    /* FONTS WEIGHT*/
+    --WEIGHT1: 400;
+    --WEIGHT2: 600;
+    --WEIGHT3: 700;
+
+    /* PRIMARY COLORS */
+    --NUTMEG: hsl(14, 45%, 36%);
+    --DARK-RASBERRY: hsl(332, 51%, 32%);
+
+    /* NEUTRAL COLORS */
+    --WHITE: hsl(0, 0%, 100%);
+    --ROSE-WHITE: hsl(330, 100%, 98%);
+    --EGGSHELL: hsl(30, 54%, 90%);
+    --LIGHT-GREY: hsl(30, 18%, 87%);
+    --WENGE-BROWN: hsl(30, 10%, 34%);
+    --DARK-CHOCOLATE: hsl(24, 5%, 18%);
+}
+
+/* UTILS */
+.box {
+    display: flex;
+    gap: 1rem;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem 1.42rem;
+    width: 100%;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.table:last-child {
+    border-bottom: none;
+}
+
+/* GENEREL STYLES */
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+/* STYLING MAIN SECTION */
+#main {
+    width: 100%;
+    background: peachpuff;
+}
+
+/* STYLING CONTAINER */
+.container {
+    background: var(--WHITE);
+}
+
+.about>h1 {
+    font-family: var(--SECONDARY-FONT);
+    font-weight: var(--WEIGHT2);
+    line-height: 2;
+}
+
+.about p {
+    font-family: var(--PRIMARY-FONT);
+    font-size: var(--PARAH-FSIZE);
+}
+
+/* STYLING PREPARATION TIME */
+.pre-time {
+    background: var(--ROSE-WHITE);
+    font-family: var(--PRIMARY-FONT);
+}
+
+.pre-time>h2 {
+    color: var(--DARK-RASBERRY);
+    padding-bottom: 12px;
+    font-weight: var(--WEIGHT3);
+}
+
+.menu {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    font-family: var(--PRIMARY-FONT);
+}
+
+.menu i {
+    color: var(--DARK-RASBERRY);
+    padding-right: 12px;
+    scale: .5;
+}
+
+.menu>li {
+    color: var(--WENGE-BROWN);
+}
+
+.menu>li span {
+    list-style: disc;
+    color: var(--DARK-CHOCOLATE);
+    font-weight: var(--WEIGHT2);
+}
+
+/* STYLING INGREDIENT SECTION */
+.ingredient h2 {
+    color: var(--NUTMEG);
+    padding-bottom: 12px;
+    font-weight: var(--WEIGHT1);
+    font-family: var(--SECONDARY-FONT);
+}
+
+.box p {
+    font-weight: var(--WEIGHT2);
+    color: var(--NUTMEG);
+    font-family: var(--PRIMARY-FONT);
+}
+
+.right-flex {
+    color: var(--WENGE-BROWN);
+    font-family: var(--PRIMARY-FONT);
+}
+
+.right-flex h3 {
+    color: var(--WENGE-BROWN);
+    display: inline-block;
+    font-weight: var(--WEIGHT3);
+}
+
+/* STLYING NUTRIENT SECTION */
+.nutrient h2 {
+    font-family: var(--SECONDARY-FONT);
+    color: var(--NUTMEG);
+}
+
+.nutrient p {
+    font-family: var(--PRIMARY-FONT);
+    font-size: var(--PARAH-FSIZE);
+    color: var(--WENGE-BROWN);
+}
+
+.left p {
+    color: var(--WENGE-BROWN);
+    font-weight: var(--WEIGHT2);
+}
+
+.right h3 {
+    color: var(--NUTMEG);
+    font-weight: var(--WEIGHT3);
+}
