@@ -1,0 +1,14 @@
+@media (min-width: 630px) {
+    .wrapper {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+
+    .container {
+        border-radius: 1rem;
+    }
+
+    .img {
+        margin: 2.25rem;
+    }
+}
