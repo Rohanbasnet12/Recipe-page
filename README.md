@@ -2,7 +2,7 @@
 
 This is a simple recipe page created using Tailwind CSS for styling and jQuery for dynamic behavior.
 
-![Design preview for the Recipe page coding challenge](assets/images/desktop-preview.jpg)
+![Design preview for the Recipe page coding challenge](./assets/images/desktop-preview.jpg)
 
 
 ## Features
